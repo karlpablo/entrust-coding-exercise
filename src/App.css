@@ -1,0 +1,37 @@
+.App {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2rem auto;
+  background-color: #CCC;
+}
+
+.App-left, .App-right {
+  width: 50%;
+  background-color: #EEE;
+  padding: 1rem;
+}
+
+.App-right {
+  background-color: #DDD;
+}
+
+.App h1 {
+  font-size: 1.5rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.App code {
+  font-size: 1.5rem;
+}
+
+.App code:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.App img {
+  margin-right: 0.25rem;
+}
